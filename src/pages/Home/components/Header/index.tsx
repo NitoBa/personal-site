@@ -4,7 +4,7 @@ import PerfilGithub from '../../../../assets/perfilgithub.jpg';
 
 import { HeaderContainer, HeaderProfile, HeaderActions } from './styles';
 
-export const Header: React.FC = () => {
+const Header: React.FC = () => {
     return (
         <HeaderContainer>
             <HeaderProfile>
@@ -31,3 +31,4 @@ export const Header: React.FC = () => {
         </HeaderContainer>
     );
 }
+export default Header;
