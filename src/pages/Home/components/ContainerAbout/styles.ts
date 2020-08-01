@@ -31,10 +31,11 @@ export const SectionLeft = styled.section`
       width: 150px;
       border-radius:8px;
       transition: background-color 250ms;
-      span{
+      a{
           color:white;
           font-size:14px;
           font-weight:700;
+          text-decoration: none;
           
       }
 

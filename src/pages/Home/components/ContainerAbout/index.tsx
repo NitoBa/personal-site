@@ -17,7 +17,7 @@ const ContainerAbout: React.FC = () => {
                     Desenvolvedor de aplicativos com Flutter e apaixonado por tecnologia
             </p>
                 <button>
-                    <span>Download CV</span>
+                    <a href='https://drive.google.com/file/d/15gl5FfoP1HGR6VmgZAYSbTRj7CIGIAzE/view?usp=sharing' target="_blank" rel="noopener noreferrer">Download CV</a>
                 </button>
 
             </SectionLeft>
@@ -25,15 +25,24 @@ const ContainerAbout: React.FC = () => {
                 <img src={Ilustration} alt='ilustration' />
                 <div className='Icons'>
                     <div className='icon'>
-                        <LinkdinIcon />
+
+                        <a href="https://www.linkedin.com/in/bruno-santos-882173161/" target="_blank2" rel="noopener noreferrer">
+                            <LinkdinIcon />
+                        </a>
                         <div className='indicator'></div>
                     </div>
                     <div className='icon'>
-                        <InstagramIcon />
+
+                        <a href="https://www.instagram.com/nito_b.a/" target="_blank" rel="noopener noreferrer">
+                            <InstagramIcon />
+                        </a>
                         <div className='indicator'></div>
                     </div>
                     <div className='icon'>
-                        <GithubIcon />
+
+                        <a href="https://github.com/Nitoba/" target="_blank" rel="noopener noreferrer">
+                            <GithubIcon />
+                        </a>
                         <div className='indicator'></div>
 
                     </div>
