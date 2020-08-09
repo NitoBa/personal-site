@@ -6,15 +6,16 @@ import CirclesImg from '../../../../assets/circles2.png';
 import PerfilImg from '../../../../assets/perfil3.png';
 
 
-const ContainerDescription: React.FC = () => {
+const ContainerAbout: React.FC = () => {
     return (
         <Container className="description">
+            <h2>Um pouco sobre mim</h2>
             <div className='photos'>
                 <img id='bolls' src={BollsImg} alt='bools' />
                 <img id='profilePhoto' src={PerfilImg} alt='perfil' />
             </div>
             <Description>
-                <h2>Um pouco sobre mim</h2>
+                <h2 className='desktop'>Um pouco sobre mim</h2>
                 <span>
                     Formado em eletrônica, já atuei no
                     setor de desenvolvimento de jogos,
@@ -29,4 +30,4 @@ const ContainerDescription: React.FC = () => {
     );
 }
 
-export default ContainerDescription;
+export default ContainerAbout;

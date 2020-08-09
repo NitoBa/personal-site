@@ -8,10 +8,20 @@ export default createGlobalStyle`
         font-family: 'Montserrat', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        font-size:60%;
+    }
+
+    html {
+    scroll-behavior: smooth;
     }
 
     button{
         cursor: pointer;
         border:none;
+    }
+
+    :root{
+        --primaryColor:#7196FF;
+        --primaryColorDark:#3469D0;
     }
 `

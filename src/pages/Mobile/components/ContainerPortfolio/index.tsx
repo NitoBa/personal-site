@@ -53,24 +53,24 @@ const ContainerPortfolio: React.FC = () => {
             </TitlePortlofio>
             <ListProjects>
                 {
-                    items.map((item, index) => <ItemProject className={index % 2 === 0 ? 'outline' : ''} >
-                        <div>
-                            <h2>
-                                {item.title}
-                            </h2>
-                            <h4>
-                                {item.description}
-                            </h4>
-                            <a href={item.seeMoreLink} target="_blank" rel="noopener noreferrer">
-
-
-                                <button>
+                    items.map((item, index) =>
+                        <ItemProject key={index} className={index % 2 === 0 ? 'outline' : ''} >
+                            <div>
+                                <h2>
+                                    {item.title}
+                                </h2>
+                                <h4>
+                                    {item.description}
+                                </h4>
+                                <a
+                                    href={item.seeMoreLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer">
                                     Ver mais
-                                </button>
                             </a>
 
-                        </div>
-                    </ItemProject>
+                            </div>
+                        </ItemProject>
                     )
                 }
 
